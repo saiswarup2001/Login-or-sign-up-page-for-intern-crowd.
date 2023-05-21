@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #dfdfdf;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.big-wrapper{
+    /* padding: 1.7rem 0 2rem; */
+    width: 100%;
+    height: auto;
+    /* min-height: auto; */
+    /* overflow: hidden; */
+    /* background-color: var(--backgroundColor); */
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: rgba(199, 196, 196, 0.654);
+    margin: 0 auto;
+    padding: 0 3rem;
+    z-index: 10;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 10rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logo img{
+    width: 38px;
+    /* margin-right: .6rem; */
+    /* margin-top: -0.9rem; */
+    margin-right: auto;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: #444;
+    font-weight: bolder;
+}
+
+.logo h3{
+    /* color: var(--darkTwo);
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 700; */
+    margin-right: auto;
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: #444;
+    font-weight: 500;
+}
+
+.links ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 10rem;
+}
+
+.links a{
+    color: #444;
+    margin-left: 7rem;
+    margin-right: 3rem;
+    font-weight: 300;
+    font-size: 3rem;
+    display: inline-block;
+}
+
+a:hover{
+    color: #007965;
+    transition: 0.2s;
+}
+
+.body{
+    width: 100%;
+    height: 100vh;
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+/* .signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #dfdfdf;
+    min-height: 100vh;
+} */
+form{
+    width: 800px;
+    height: 800px;
+    background: #9DB2BF;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    min-width: 100%;
+}
+.login{
+    background: #dfdfdf;
+    align-items: center;
+    justify-content: center;
+    background: #dfdfdf;
+    align-items: center;
+    justify-content: center;
+    width: 1500px;
+    height: 1450px;
+    padding: 30px;
+}
+
+.login-head{
+    text-align: center;
+    justify-content: center;
+    margin: 30px 0 40px 0;
+}
+
+.login-head header{
+    color: black;
+    font-size: 88px;
+    font-weight: 800;
+    margin-top: 55px;
+    margin-bottom: 155px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .input{
+    align-items: center;
+    justify-content: center;
+} */
+
+.input .input-field{
+    width: 80%;
+    height: auto;
+    font-size: 70px;
+    padding: 35px;
+    margin-top: 15px;
+    margin-left: 120px;
+    margin-bottom: 15px;
+    border-radius: 70px;
+    border: none;
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.06);
+    outline: none;
+    transition: .3s;
+}
+
+::placeholder{
+    font-weight: 400 bolder;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    align-self: start;
+    justify-content: center;
+    align-items: center;
+    color: black ;
+}
+
+.input-field:focus{
+    width: 85%;
+}
+
+.forgot-pass{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color: #554;
+}
+
+#check{
+    margin-left: 80px;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section a{
+    color: #554;
+    font-size: 40px;
+    margin-right: 150px;
+}
+
+.submit{
+    position: relative;
+}
+.submit-btn{
+    width: 80%;
+    height: 150px;
+    margin-left: 130px;
+    margin-right: auto;
+    background-color: #222;
+    border-radius: 80px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.submit label{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color: #fff;
+    font-size: 44px;
+    transform: translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    background: #000;
+    transform: scale(1.05,1);
+}
+
+.sign-up-link{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 15px;
+}
+
+.sign-up-link a{
+    color: #000;
+    font-weight: 600;
+}
+
+.sign-up-link a:hover{
+    color: #007965;
+    font-weight: 600;
+}
+
+.details{
+    background: #dfdfdf;
+    align-items: center;
+    justify-content: center;
+    width: 1500px;
+    height: 1450px;
+    padding: 30px;
+
+}
+
+.details h2{
+    color: black;
+    font-size: 88px;
+    font-weight: 800;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* display: flex; */
+    display:flex;
+    position: relative;
+    /* background: #dfdfdf; */
+    align-items: center;
+    justify-content: center;
+    /* width: 940px;
+    height: 850px;
+    padding: 30px; */
+}
+
+.details .info .info-field{
+    width: 80%;
+    height: auto;
+    font-size: 50px;
+    padding: 35px;
+    display: flex;
+    position: relative;
+    margin-top: 55px;
+    margin-left: 110px;
+    margin-bottom: 35px;
+    border-radius: 70px;
+    border: none;
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.06);
+    outline: none;
+    transition: .3s;
+}
+
+::placeholder{
+    font-weight: 400 bolder;
+    font-size: 34px;
+    font-family: 'Courier New', Courier, monospace;
+    align-self: start;
+    justify-content: center;
+    align-items: center;
+    color: black ;
+}
+
+.info-field:focus{
+    width: 85%;
+}
+
+.checkbox{
+    height: 30px;
+    width: 50px;
+}
+
+.submit2{
+    position: relative;
+}
+.submit-btn2{
+    width: 83.5%;
+    height: 150px;
+    margin-left: 130px;
+    margin-top: 45px;
+    background-color: #222;
+    border-radius: 80px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.submit2 label{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: #fff;
+    font-size: 44px;
+    transform: translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.submit-btn2:hover{
+    background: #000;
+    transform: scale(1.05,1);
+}
